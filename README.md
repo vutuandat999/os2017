@@ -1,4 +1,4 @@
-USTH ICT 2017 Android Development
+USTH ICT 2017 Operating System
 =====================================
 
 Students are expected to:
