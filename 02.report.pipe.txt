@@ -1,0 +1,21 @@
++$ ls | grep "list"
++list
++list_vudat
++
++$ wc -l /etc/passwd
++41 /etc/passwd
++
++$ free -t -h
++              total        used        free      shared  buff/cache   available
++Mem:           4G        1,0G        3G        159M        873M        3G
++Swap:          4G          0B        4G
++Total:          8G        1,0G        7G
++
++$ cat /proc/cpuinfo | grep "siblings"
++siblings	: 4
++siblings	: 4
++siblings	: 4
++siblings	: 4
++
++$ find /home/dat/Pictures -type f -name "*.jpg" | wc -l
++1
