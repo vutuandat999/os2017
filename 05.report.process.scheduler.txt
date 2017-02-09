@@ -1,0 +1,11 @@
+dat@dat-Aspire-V5-591G:~$ cat /proc/sched_debug | grep "systemd"
+   systemd-udevd   952      2258.670014       789   120        43.335662       614.129431     70095.687439 0 0 /autogroup-12
+ systemd-timesyn  2468         5.712642       116   120         0.102781         8.935153     60443.629307 0 0 /autogroup-37
+  systemd-logind  2569        13.459030       271   120         9.607420        32.907939     60270.777055 0 0 /autogroup-47
+         systemd  2855         0.257065         8   120         0.132045        16.016187      1444.635722 0 0 /autogroup-80
+ systemd-journal   916        21.262736       569   120        24.277577       113.181935     76303.781496 0 0 /autogroup-6
+         systemd     1       261.090301      1408   120        36.756249      1218.667771     77336.777603 0 0 /autogroup-2
+dat@dat-Aspire-V5-591G:~$ cat /proc/1/sched | grep "switches"
+nr_switches                                  :                 1442
+nr_voluntary_switches                        :                 1122
+nr_involuntary_switches                      :                  320
