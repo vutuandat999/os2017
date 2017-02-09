@@ -1,0 +1,7 @@
+dat@dat-Aspire-V5-591G:~$ ps -e | grep "firefox"
+ 3865 ?        00:02:29 firefox
+dat@dat-Aspire-V5-591G:~$ ps -o nlwp 3865
+NLWP
+  48
+dat@dat-Aspire-V5-591G:~$ ls /proc/3865/task | wc -w
+48
